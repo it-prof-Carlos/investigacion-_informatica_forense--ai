@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Investigación Forense Digital con IA
 
-## Getting Started
+**Autor:** Carlos Gallardo
+**Contexto:** Proyecto de investigación aplicada - Ingeniería en Inteligencia Artificial
 
-First, run the development server:
+## Resumen Ejecutivo
+
+Esta aplicación web demuestra la integración de técnicas de **Inteligencia Artificial** y **Machine Learning** en procesos de **investigación forense digital**. El sistema permite analizar grandes volúmenes de datos forenses (logs, metadatos, comunicaciones) para identificar patrones de actividad sospechosa, reduciendo el tiempo de análisis en un 60-80%.
+
+## Tecnologías Utilizadas
+
+| Componente | Tecnología |
+|------------|------------|
+| **Frontend** | Next.js, TypeScript, Tailwind CSS |
+| **Backend/API** | Next.js API Routes |
+| **Machine Learning** | Python (scikit-learn, pandas) - Backend independiente |
+| **Visualización** | Chart.js, Recharts |
+
+## Estructura del Proyecto
+
+investigacion-_informatica_forense--ai/
+├── app/ # Next.js App Router
+│ ├── page.tsx # Dashboard principal
+│ └── api/ # Endpoints para análisis
+├── public/ # Assets estáticos
+└── ...
+
+## Funcionalidades Clave
+
+- **Carga de datos forenses** (logs, archivos planos, metadata)
+- **Análisis de anomalías** mediante Isolation Forest
+- **Clasificación de eventos** con XGBoost
+- **Procesamiento de lenguaje natural** para análisis de comunicaciones
+- **Dashboard interactivo** con visualización de hallazgos
+
+## Reporte Técnico Completo
+
+Para el análisis forense detallado, metodología y hallazgos, consultar el [**WRITEUP.md**](WRITEUP.md) en este repositorio.
+
+## Instalación y Ejecución
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun run dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrir http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Enlaces Relacionados
+Repositorio de Análisis de Malware: 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Repositorio de Detección de Fraudes: 
 
-## Learn More
+Perfil de LinkedIn: www.linkedin.com/in/carlos-gallardo-746059194
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
