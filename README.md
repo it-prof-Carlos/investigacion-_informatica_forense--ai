@@ -46,7 +46,7 @@ npm run dev
 Abrir http://localhost:3000
 
 Enlaces Relacionados
-Repositorio de Análisis de Malware: 
+Repositorio de Análisis de Malware: https://github.com/it-prof-Carlos/Malware-Analysis-Trojan-Dropper
 
 Repositorio de Detección de Fraudes: 
 
