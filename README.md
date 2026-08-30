@@ -48,7 +48,7 @@ Abrir http://localhost:3000
 Enlaces Relacionados
 Repositorio de Análisis de Malware: https://github.com/it-prof-Carlos/Malware-Analysis-Trojan-Dropper
 
-Repositorio de Detección de Fraudes: 
+Repositorio de Detección de Fraudes: https://github.com/it-prof-Carlos/financial_fraud_detector
 
 Perfil de LinkedIn: www.linkedin.com/in/carlos-gallardo-746059194
 
